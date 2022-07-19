@@ -97,6 +97,9 @@
         onEachFeature: onEachFeature,
       }).addTo(map);
       // myLayer.addData();
+
+      let infoControl = L.control({ position: "topright" }).addTo(map);
+      // infoControl.innerText = "last updated" + updateTime;
     </script>
   </body>
 </html>
